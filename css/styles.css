@@ -1,0 +1,42 @@
+* body {
+    background-color: antiquewhite;
+    color: brown
+}
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h2,
+h3,
+h4 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+img {
+    border-radius: 10px;
+    max-width: 200px;
+}
+
+.footer {
+    text-align: center;
+    font-size: xx-small;
+}
+
+.more-recipes h3+p {
+    font-style: italic;
+    /* to make the tater tot paragraph italic */
+}
+
+.inspiration~p {
+    font-size: small;
+    /*so that all elements that share the same parent and come after footer will be small */
+}
+
+[href="https://youtu.be/Vr-o01qiRYI?si=2UluxtuhccDgm4lo"] {
+    color: blue;
+    font-style: bold;
+    /*so that the link is blue and bold*/
+}
